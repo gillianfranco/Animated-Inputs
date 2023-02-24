@@ -6,6 +6,7 @@
 
 body{
     background: #e9e9e9;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav{
@@ -19,7 +20,6 @@ nav{
 }
 
 h1{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     color: #797979;
 }
@@ -78,4 +78,72 @@ h1{
 .title-place, .number-place{
     width: 57%;
     height: 50%;
+}
+
+#form-place{
+    border-top: 3px solid rgba(199, 199, 199, 0.5);
+    width: 100%;
+    height: 255px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 32px;
+    border-bottom: 1px solid #000;
+}
+
+span.animation{
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+}
+
+.form{
+    border: 1px solid #000;
+    width: 580px;
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form h2{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+.inputs-place{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inicio-input-place, .final-input-place{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-btn{
+    width: 75px;
+    height: 40px;
+    border: 0 solid;
+    font-size: 15px;
+    color: #f1f1f1;
+}
+
+.btn-inicio{
+    background-color: rgb(226, 69, 69);
+}
+
+.btn-final{
+    background-color: rgb(25, 163, 25);
+}
+
+.inputs-place input{
+    width: 150px;
+    height: 40px;
+    border: 0 solid;
 }
