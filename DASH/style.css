@@ -56,11 +56,9 @@ h1{
     flex-direction: row;
     justify-content: space-around;
     padding-top: 32px;
-    border-bottom: 1px solid #000;
 }
 
 .campo{
-    border: 1px solid #000;
     width: 265px;
     height: 155px;
 }
@@ -82,14 +80,20 @@ h1{
 }
 
 .icon-place, .title-place, .number-place{
-    border: .1px solid #fff;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon-place{
     width: 43%;
     height: 100%;
     float: left;
+    border-right: 1px solid #e9e9e9;
+}
+
+.number-place{
+    border-bottom: 1px solid #e9e9e9;
 }
 
 .title-place, .number-place{
@@ -97,25 +101,28 @@ h1{
     height: 50%;
 }
 
+.icon-place i{
+    color: #fff;
+    font-size: 25px;
+}
+
 #form-place{
-    border-top: 3px solid rgba(199, 199, 199, 0.5);
+    border-top: 3px solid 0;
     width: 100%;
     height: 215px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 32px;
-    border-bottom: 1px solid #000;
 }
 
-span.animation{
-    height: 2px;
+div.animation{
+    height: 3px;
     width: 100%;
-    background-color: #000;
+    background-color: #0065fca4;
 }
 
 .form{
-    border: 1px solid #000;
     width: 580px;
     height: 125px;
     display: flex;
@@ -123,12 +130,13 @@ span.animation{
     align-items: center;
 }
 
-.form h2{
+.form h3{
     text-align: center;
-    padding: 10px;
+    padding: 13px;
     width: 100%;
-    border: 1px solid #000;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
+    background-color: #108e9e;
+    color: #f1f1f1;
 }
 
 .inputs-place{
@@ -144,7 +152,7 @@ span.animation{
 }
 
 .form-btn{
-    width: 90px;
+    width: 120px;
     height: 44px;
     border: 0 solid;
     font-size: 12px;
@@ -176,8 +184,8 @@ span.animation{
 }
 
 #title-place h1{
-    background-color: #fff;
-    border: 1px solid #000;
+    background-color: #ebac37;
+    color: #f1f1f1;
     padding: 15px 40px;
 }
 
