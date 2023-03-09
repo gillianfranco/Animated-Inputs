@@ -67,6 +67,7 @@ h1{
 .campo{
     width: 265px;
     height: 155px;
+    cursor: pointer;
 }
 
 #categorias{
@@ -140,7 +141,7 @@ ion-icon{
     font-size: 25px;
 }
 
-#form-place{
+#form-place, #priceProd-place{
     border-top: 3px solid 0;
     width: 100%;
     height: 215px;
@@ -148,6 +149,11 @@ ion-icon{
     flex-direction: row;
     justify-content: space-around;
     padding-top: 32px;
+}
+
+#priceProd-place{
+    display: none;
+    transition: 1s;
 }
 
 span.animation{
@@ -195,7 +201,7 @@ span.animation{
     justify-content: space-around;
 }
 
-.inicio-input-place, .final-input-place{
+.inicio-input-place, .final-input-place, .price-input-place{
     display: flex;
     flex-direction: row;
 }

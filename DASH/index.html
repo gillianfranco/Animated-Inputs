@@ -31,7 +31,7 @@
             <div class="number-place">0</div>
             <div class="title-place">Marca</div>
         </div>
-        <div class="campo" id="produtos">
+        <div class="campo" id="produtos" onclick="clickCampoProd()">
             <div class="icon-place">
                 <ion-icon name="albums-outline"></ion-icon>
             </div>
@@ -75,6 +75,30 @@
             </div>
         </div>
     </div>
+    <div id="priceProd-place">
+        <div class="form">
+            <h3>PREÇO DO PRODUTO</h3>
+            <div class="inputs-place">
+                <div class="price-input-place">
+                    <button class="form-btn btn-final">CONFIRMAR</button>
+                    <input type="number" class="price-input">
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <h3>FAIXA DE PORCENTAGEM</h3>
+            <div class="inputs-place">
+                <div class="inicio-input-place">
+                    <button class="form-btn btn-inicio">INÍCIO</button>
+                    <input class="inicio-input" type="number">
+                </div>
+                <div class="price-input-place">
+                    <button class="form-btn btn-final">FINAL</button>
+                    <input type="number" class="final-input">
+                </div>
+            </div>
+        </div>
+    </div>
     <span class="animation"></span>
     <div id="prod-place">
         <div id="title-place">
@@ -109,6 +133,7 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
